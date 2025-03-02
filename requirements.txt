@@ -23,3 +23,5 @@ Werkzeug==3.1.1
 WTForms==3.2.1
 psycopg2-binary==2.9.9
 gunicorn==21.2.0
+email_validator~=2.2.0
+python-dotenv~=1.0.1
