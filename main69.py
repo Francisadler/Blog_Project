@@ -168,7 +168,8 @@ def show_post(post_id):
             comment = Comment(text=data, user=current_user, blogs=current_blog)
             db.session.add(comment)
             db.session.commit()
-            return redirect(url_for("show_post"))
+
+            return redirect(url_for("show_post", post_id=post_id))
         else:
             flash("Only Logged in users are allowed to make comments. Please log in.")
             return redirect(url_for("login"))
