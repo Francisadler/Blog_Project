@@ -4,6 +4,7 @@ from wtforms.fields.simple import PasswordField
 from wtforms.validators import DataRequired, URL, Length, Email
 from flask_ckeditor import CKEditorField
 import email_validator
+import bleach
 
 # WTForm for creating a blog post
 class CreatePostForm(FlaskForm):
@@ -31,3 +32,4 @@ class LoginForm(FlaskForm):
 class CommentForm(FlaskForm):
     comment = CKEditorField("Comment")
     submit = SubmitField("Submit Comment")
+

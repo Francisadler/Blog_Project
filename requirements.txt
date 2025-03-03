@@ -3,7 +3,7 @@
 # In the terminal use:
 #    pip install -r ./requirements_3.13.txt
 #
-blinker==1.8.2
+blinker==1.9.0
 Bootstrap-Flask==2.4.1
 click==8.1.7
 colorama==0.4.6
@@ -21,7 +21,7 @@ SQLAlchemy==2.0.36
 typing_extensions==4.12.2
 Werkzeug==3.1.1
 WTForms==3.2.1
-psycopg2-binary==2.9.9
+psycopg2-binary==2.9.10
 gunicorn==21.2.0
 email_validator~=2.2.0
 python-dotenv~=1.0.1
